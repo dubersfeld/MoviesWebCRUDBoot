@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="header::header(title='directorQueries')">
+</head>
+<body>
+ 
+    <nav th:replace="header::language"></nav>
+	
+	<a href="backHome" th:text="#{index.backHome}"></a><br /><br />
+    
+    <a href="allDirectors" th:text="#{directorQueries.listAllDirectors}"></a><br />
+    
+    <a href="getDirector" th:text="#{directorQueries.getDirector}"></a><br />
+    
+    <a href="numberOfDirectors" th:text="#{directorQueries.numberOfDirectors}"></a><br />
+    
+    <a href="getDirectorByName" th:text="#{directorQueries.getDirectorByName}"></a><br />
+    
+ 	<a href="createDirector" th:text="#{directorQueries.createDirector}"></a><br />
+      	
+    <a href="updateDirector" th:text="#{directorQueries.updateDirector}"></a><br />
+  	
+  	<a href="deleteDirector" th:text="#{directorQueries.deleteDirector}"></a><br />
+  		 	
+</body>
+</html>

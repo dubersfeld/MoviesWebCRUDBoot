@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="header::header(title='movieQueries')">
+</head>
+ <body>
+ 
+ 	<nav th:replace="header::language"></nav>
+ 	
+ 	<a href="backHome" th:text="#{index.backHome}"></a><br /><br />
+ 	 
+ 	<a href="listAllMovies" th:text="#{movieQueries.listAllMovies}"></a><br/>
+	<a href="numberOfMovies" th:text="#{movieQueries.numberOfMovies}"></a><br/>
+	<a href="getMovie" th:text="#{movieQueries.getMovie}"></a><br/>
+	<a href="getSingleMovie" th:text="#{movieQueries.getSingleMovie}"></a><br/>
+	<a href="createMovie" th:text="#{movieQueries.createMovie}"></a><br/>
+	<a href="deleteMovie" th:text="#{movieQueries.deleteMovie}"></a><br/>
+	<a href="updateMovie" th:text="#{movieQueries.updateMovie}"></a><br/>
+ 	
+</body>
+</html>
+
